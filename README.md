@@ -65,7 +65,7 @@ Open the notebook in Google Colab, install the required dependencies, download t
 
 
 
-\## Trained Model
+## Trained Model
 
 
 
@@ -73,5 +73,17 @@ The trained ResNet18 model is available here:
 
 
 
-\[Download traffic\_sign\_model.pth](https://drive.google.com/file/d/1oNfGxDABuFnhOp\_Rs6OY9LN9zZ5ztXMU/view?usp=sharing)
+[Download traffic\_sign\_model.pth](https://drive.google.com/file/d/1oNfGxDABuFnhOp\_Rs6OY9LN9zZ5ztXMU/view?usp=sharing)
+
+## Training Performance
+
+The model was trained for 10 epochs using transfer learning.
+
+### Training vs Validation Accuracy
+
+![Accuracy Graph](results/accuracy.png)
+
+### Training vs Validation Loss
+
+![Loss Graph](results/loss.png)
 
